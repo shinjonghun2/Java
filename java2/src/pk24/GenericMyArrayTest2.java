@@ -8,8 +8,8 @@ class MyArray2<T>{
 		return  (T) (array[i++] = obj);
 		
 	}
-	public Object get(int index) {
-		return array[index];
+	public T get(int index) {
+		return (T)array[index];
 	}
 }
 public class GenericMyArrayTest2 {
